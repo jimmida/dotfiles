@@ -28,7 +28,7 @@
 [push]
 	default = matching
 [core]
-	excludesfile = /Users/daj/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	pager = less -FXRS -x2
 [apply]
 	whitespace = nowarn
@@ -40,4 +40,4 @@
 [user]
 	name = Jimmy Da
 	initials = jd
-	email = pair+jimmy@gopivotal.com
+	email = jimmida@gmail.com
