@@ -1,0 +1,43 @@
+[alias]
+    st = status
+    co = checkout
+    god = log --graph --oneline --decorate
+    lol = log --graph --oneline --pretty=format:'%h %s [%an]' --decorate
+	di = diff
+	ci = commit
+	br = branch
+	sta = stash
+	llog = log --date=local
+	flog = log --pretty=fuller --decorate
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	lola = log --graph --decorate --oneline --all
+	blog = log origin/master... --left-right
+	ds = diff --staged
+	fixup = commit --fixup
+	squash = commit --squash
+	unstage = reset HEAD
+	rum = rebase master@{u}
+    
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+	ui = auto
+[user]
+[push]
+	default = matching
+[core]
+	excludesfile = /Users/daj/.gitignore_global
+	pager = less -FXRS -x2
+[apply]
+	whitespace = nowarn
+[branch]
+	autosetupmerge = true
+[rebase]
+	autosquash = true
+[user]
+[user]
+	name = Jimmy Da
+	initials = jd
+	email = pair+jimmy@gopivotal.com
