@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"file_exclude_patterns":
 	[
 		".DS_Store",
@@ -27,7 +27,6 @@
 	],
 	"folder_exclude_patterns":
 	[
-		"data",
 		".zeus.sock",
 		".git",
 		".svn",
@@ -36,10 +35,7 @@
 		".sass-cache",
 		".bundle",
 		"bundle",
-		".rbx",
-		"bin",
-		"script",
-		"tmp"
+		".rbx"
 	],
 	"font_size": 15.0,
 	"highlight_line": true,
@@ -59,6 +55,7 @@
 		"show_minimap": false
 	},
 	"save_on_focus_lost": true,
+	"show_full_path": true,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
