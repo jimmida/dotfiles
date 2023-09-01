@@ -21,6 +21,9 @@ export PS1="\n\[\e[31m\]\`nonzero_return\`\[\e[m\] \[\033[0;34m\]\t\[\033[0m\] \
 export EDITOR=vim
 export CLASSPATH="/usr/local/lib/*:."
 
+alias ll='ls -ltarS'
+alias beep='tput bel'
+
 # Aliases
 alias "idea=open -a /Applications/IntelliJ\ IDEA\ 13.app"
 
